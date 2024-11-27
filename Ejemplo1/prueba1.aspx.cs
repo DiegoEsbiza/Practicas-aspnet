@@ -19,5 +19,10 @@ namespace Ejemplo1
             string nombre = txtNombre.Text;
             lblSaludo.Text = "Hola, " + nombre + ", como estas?";
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
